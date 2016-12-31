@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Dec 12 21:34:49 2016
+
+@author: engrs
+"""
+
+import csv
+f=open('C:\Users\engrs\OneDrive for Business\matlab_script\PhD_stuff\feature_extraction(supervised_learning)\csv_files\feature_vetcor_label.csv','r')
+
+csv_f=csv.reader(f)
+for row in csv_f:
+    print row
+f.close()
